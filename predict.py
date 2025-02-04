@@ -11,4 +11,4 @@ with open("xgboost-model", "rb") as f:
     model = pickle.load(f)
     x_test_xgb = xgb.DMatrix(x_test_pre)
     pred = model.predict(x_test_xgb)
-    print(f"The predicted price is {pred:,.0f} INR")
+    print(f"The predictions are {pred}")
