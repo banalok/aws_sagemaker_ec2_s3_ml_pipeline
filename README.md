@@ -1,1 +1,1 @@
-# AWS SAGEMAKER, EC2, S3
+# EDA, Feature Engineering and Model Building and Optimization pipeline in AWS SAGEMAKER using EC2 and S3.
